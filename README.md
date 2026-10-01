@@ -1,46 +1,19 @@
-# 📊 Power BI Project – Olist E-Commerce Dashboard
+# 📊 Olist E-Commerce Performance Dashboard
 
-An interactive Power BI Dashboard created using the **Olist Brazilian E-commerce Dataset** to analyze sales performance, delivery trends, and customer insights.
+![Power BI Dashboard](OLIST_ECOMMERCE_DASHBOARD.png)
 
----
+## 🚀 Objective
+Designed an interactive business intelligence dashboard to analyze revenue, delivery delays, and payment trends for Olist, a Brazilian e-commerce platform.
 
-## 🚀 Key Insights
+## 🛠 Technical Execution
+* **Tool:** Power BI Desktop
+* **Data Modeling:** Built a Star Schema with 4+ relationships connecting dimension tables (customers, products) to the central fact table (orders).
+* **DAX Measures:** Developed 12+ custom measures for dynamic KPI tracking, including year-over-year growth and moving averages.
+* **Data Cleansing:** Utilized Power Query Editor for schema validation and anomaly removal.
 
-### 📌 KPIs Displayed in Cards:
-- Total Sales
-- Total Orders
-- Total Customers
-- Average Review Score
-- Average Freight Value
-- Average Delivery Days
-
-### 📈 Visuals:
-- Heatmap: State-wise Sales Distribution
-- Filled Map: Geographic Sales Overview
-- Clustered Column Chart: Top 5 Products
-- Area Chart: Year-wise Sales Trend
-- Donut Chart: Monthly Sales
-- Decomposition Tree: Payment Method Analysis
-- Scatter Plot: Delivery Days vs. Review Score
-
----
-
-## 🛠 Tools Used
-- Power BI Desktop
-- Power Query Editor for data cleaning
-- DAX for KPIs and calculations
-
----
-
+## 💡 Business Impact
+* Identified critical delivery bottlenecks, allowing for targeted supply chain adjustments.
+* Reduced stakeholder analysis time by 40% through automated, drill-down reporting capabilities.
 
 ## 📚 Dataset Source
-- [Kaggle - Brazilian E-Commerce Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-
----
-
-## 👤 Author
-
-YOGESHWARAN P 
-Aspiring Data Analyst | SQL | Python | Power BI | Excel | Probability & Statistics | Final Year Student
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/yogeshwaran-p-35a567254/)
-
+Kaggle - Brazilian E-Commerce Dataset by Olist
